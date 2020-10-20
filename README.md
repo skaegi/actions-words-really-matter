@@ -51,7 +51,7 @@ To use this function in your repository perform the following steps:
          - name: Checking out our code
            uses: actions/checkout@master
          - name: Remove the problematic words
-           uses: jjasghar/actions-words-really-matter@v2.1.0
+           uses: jjasghar/actions-words-really-matter@v2.2.0
          - name: Create Pull Request
            id: cpr
            uses: peter-evans/create-pull-request@v3
